@@ -1,5 +1,10 @@
 # Yomitan Dictionaries by peldas
 
+## Japanese-English
+- Babylon v1.0.0 ([source](babylon)) ([download](https://github.com/peldas/yomitan-dicts/releases/tag/babylon))
+![example](https://raw.githubusercontent.com/peldas/yomitan-dicts/main/babylon/example.png)
+![example2](https://raw.githubusercontent.com/peldas/yomitan-dicts/main/babylon/example2.png)
+
 ## Thai-Japanese
 - ごったい v1.0.0 ([source](gottai)) ([download](https://github.com/peldas/yomitan-dicts/releases/tag/gottai))
 ![example](https://raw.githubusercontent.com/peldas/yomitan-dicts/main/gottai/example.png)
