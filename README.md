@@ -5,6 +5,10 @@
 ![example](https://raw.githubusercontent.com/peldas/yomitan-dicts/main/babylon/example.png)
 ![example2](https://raw.githubusercontent.com/peldas/yomitan-dicts/main/babylon/example2.png)
 
+## Korean-Japanese
+- KRDICT JA Hanja v1.0.0 ([source](KRDICT-JA-hanja)) ([download](https://github.com/peldas/yomitan-dicts/releases/tag/KRDICT-JA-hanja))
+![example](https://raw.githubusercontent.com/peldas/yomitan-dicts/main/KRDICT-JA-hanja/example.png)
+
 ## Thai-Japanese
 - ごったい v1.0.0 ([source](gottai)) ([download](https://github.com/peldas/yomitan-dicts/releases/tag/gottai))
 ![example](https://raw.githubusercontent.com/peldas/yomitan-dicts/main/gottai/example.png)
