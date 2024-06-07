@@ -16,19 +16,19 @@ for filename in os.listdir(dictdir):
         if len(termReadingGroup) < 2:
             continue
         
-        hanja = termReadingGroup[1]['content']
+        for content in termReadingGroup:
+            hanja = content['content']
         
-        if hanja == '' or hanja.isnumeric():
-            continue
+            if re.search('〔', hanja) is None:
+                continue
         
-        hanja = hanja.strip(' 〔〕')
+            hanja = hanja.strip(' 〔〕')
         
-        result = re.search('[a-zA-Z]', hanja)
-        if result is not None:
-            continue
+            i[1] = i[0]
+            i[0] = hanja
+            
+            break
         
-        i[1] = i[0]
-        i[0] = hanja
         
     processedfile = dictdir + 'processed\\' + filename
     f = open(processedfile, "w", encoding = "utf-8")
