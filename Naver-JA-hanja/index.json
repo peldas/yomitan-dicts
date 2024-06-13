@@ -2,9 +2,9 @@
 	"title": "Naver KR-JP Hanja",
 	"targetLanguage": "ko",
 	"format": 3,
-	"revision": "naver_kr-jp-hanja_v1.0.0",
+	"revision": "naver_kr-jp-hanja_v1.0.1",
 	"sequenced": true,
 	"author": "peldas",
 	"url": "",
-	"description": "네이버 한일사전 ネイバ韓日辞書 Naver Korean-Japanese dictionary Build Date: 20240608"
+	"description": "네이버 한일사전 ネイバ韓日辞書 Naver Korean-Japanese dictionary Build Date: 20240614"
 }

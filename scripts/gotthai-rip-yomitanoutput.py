@@ -20,15 +20,11 @@ for i in range(resume_from // batch_size + 1, last_batch + 1 ):
         
     for j in range (1, final_batch_size + 1):
         current_page = (i - 1) * batch_size + j
-#for i in range(169,170):
-        #current_page = i
+
         print('Scraping {0} of {1} ({2:.2f}%)...'.format(current_page, last_page, current_page / last_page * 100))
         
         URL = "https://www.gotthai.net/th_words/{}".format(current_page)
         page = requests.get(URL)
-
-        #URL = 'https://www.gotthai.net/th_words/8734'
-        #page = requests.get(URL)
 
         soup = BeautifulSoup(page.content, 'html.parser')
         
@@ -145,6 +141,6 @@ for i in range(resume_from // batch_size + 1, last_batch + 1 ):
 
     filename = "gotthai/term_bank_{}.json".format(i)
     f = open(filename, "w", encoding="utf-8")
-    f.write(json.dumps(dictionary_data, indent = 4))
+    f.write(json.dumps(dictionary_data, ensure_ascii=False, indent = 4))
     f.close()
     print('Saved file {}, resetting array for batch {} of {}'.format(filename, i + 1, last_batch))

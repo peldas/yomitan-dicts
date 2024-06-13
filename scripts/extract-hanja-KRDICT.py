@@ -51,6 +51,6 @@ for filename in os.listdir(dictdir):
     
     term_meta_bank_filepath = processeddir + 'term_meta_bank_' + filename.split('_')[2]
     term_meta_bank_file = open(term_meta_bank_filepath, 'w', encoding = 'utf-8')
-    term_meta_bank_file.write(json.dumps(term_meta_bank_data, indent = 4))
+    term_meta_bank_file.write(json.dumps(term_meta_bank_data, ensure_ascii=False, indent = 4))
     term_meta_bank_file.close()
     print('Saved file ' + term_meta_bank_filepath)

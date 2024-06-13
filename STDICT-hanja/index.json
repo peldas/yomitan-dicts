@@ -2,10 +2,10 @@
 	"title": "STDICT Hanja",
 	"targetLanguage": "ko",
 	"format": 3,
-	"revision": "stdict-hanja_v1.0.0",
+	"revision": "stdict-hanja_v1.0.1",
 	"sequenced": false,
 	"author": "peldas",
 	"url": "https://stdict.korean.go.kr/main/main.do",
-	"description": "Build date: 20240608",
+	"description": "Build date: 20240614",
 	"attribution": "표준국어대사전 by 국립국어원 is licensed under CC BY-SA 2.0 KR. https://stdict.korean.go.kr/join/copyrightPolicy.do"
 }
