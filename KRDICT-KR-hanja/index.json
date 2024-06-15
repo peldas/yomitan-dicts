@@ -2,10 +2,10 @@
 	"title": "KRDICT Hanja",
 	"targetLanguage": "ko",
 	"format": 3,
-	"revision": "krdict-hanja_v1.0.1",
+	"revision": "krdict-hanja_v1.0.3",
 	"sequenced": false,
 	"author": "peldas",
 	"url": "https://krdict.korean.go.kr/kor/mainAction",
-	"description": "Build Date: 20240614",
+	"description": "Build Date: 20240615",
 	"attribution": "세계인이 누리는 한국어 학습사전 by 국립국어원 is licensed under CC BY-SA 2.0 KR. https://krdict.korean.go.kr/kor/kboardPolicy/copyRightTermsInfo"
 }
